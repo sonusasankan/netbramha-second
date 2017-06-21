@@ -5,15 +5,33 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script src="https://use.fontawesome.com/5dde0addcb.js"></script>
 </head>
 
 <body>
-  <select id="mounth">
-      <option value="Your Profile">Your Profile</option>
-      <option value="Setttings" rel="icon-temperature">Setttings</option>
-      <option value="Change Password">Change Password</option>
-      <option value="Logout">Logout</option>
+
+  <form class="" action="index.html" method="get">
+    <select id="na" name="menu">
+      <option data-icon="fa-user" value="Your Profile">Your Profile</option>
+      <option data-icon="fa-cog" value="Setttings">Setttings</option>
+      <option data-icon="fa-unlock-alt" value="Change Password">Change Password</option>
+      <option data-icon="fa-power-off" value="Logout">Logout</option>
   </select>
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- <form class="" action="index.html" method="get">
+    <select id="na" name="menu">
+      <option data-icon="fa-user" value="Your Profile">Your Profile</option>
+      <option data-icon="fa-cog" value="Setttings">Setttings</option>
+      <option data-icon="fa-unlock-alt" value="Change Password">Change Password</option>
+      <option data-icon="fa-power-off" value="Logout">Logout</option>
+  </select>
+    <button type="submit">Submit</button>
+  </form> -->
+
+
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/script.js"></script>
